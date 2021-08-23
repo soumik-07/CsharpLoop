@@ -5,22 +5,50 @@ VisualStudioVersion = 16.0.31613.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{7E6D36E8-D44C-49DD-A605-33D2B6DFBEBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibo", "Fibo\Fibo.csproj", "{EE34861D-D9F3-4EBE-A26B-3BDC3E7E9FE2}"
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "Fibo", "Fibo\bin\Debug\Fibo.exe", "{FF2A7810-2DC0-4245-ACB4-F2D4B41A7F51}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = F:\CsharpLoop\ConsoleApp1\Fibo\bin\Debug\Fibo.exe
+		RemoteMachine = DESKTOP-30FT72H
+		StartingDirectory = F:\CsharpLoop\ConsoleApp1\Fibo\bin\Debug
+		Environment = Default
+		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		UseLegacyDebugEngines = No
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+		IORedirection = Auto
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci", "Fibonacci\Fibonacci.csproj", "{2D51ADCB-C420-412F-A1DA-D4E3E984156C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{7E6D36E8-D44C-49DD-A605-33D2B6DFBEBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7E6D36E8-D44C-49DD-A605-33D2B6DFBEBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E6D36E8-D44C-49DD-A605-33D2B6DFBEBC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7E6D36E8-D44C-49DD-A605-33D2B6DFBEBC}.Debug|x86.Build.0 = Debug|Any CPU
 		{7E6D36E8-D44C-49DD-A605-33D2B6DFBEBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E6D36E8-D44C-49DD-A605-33D2B6DFBEBC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EE34861D-D9F3-4EBE-A26B-3BDC3E7E9FE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EE34861D-D9F3-4EBE-A26B-3BDC3E7E9FE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EE34861D-D9F3-4EBE-A26B-3BDC3E7E9FE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EE34861D-D9F3-4EBE-A26B-3BDC3E7E9FE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E6D36E8-D44C-49DD-A605-33D2B6DFBEBC}.Release|x86.ActiveCfg = Release|Any CPU
+		{7E6D36E8-D44C-49DD-A605-33D2B6DFBEBC}.Release|x86.Build.0 = Release|Any CPU
+		{FF2A7810-2DC0-4245-ACB4-F2D4B41A7F51}.Debug|Any CPU.ActiveCfg = Release|x86
+		{FF2A7810-2DC0-4245-ACB4-F2D4B41A7F51}.Debug|x86.ActiveCfg = Release|x86
+		{FF2A7810-2DC0-4245-ACB4-F2D4B41A7F51}.Release|Any CPU.ActiveCfg = Release|x86
+		{FF2A7810-2DC0-4245-ACB4-F2D4B41A7F51}.Release|x86.ActiveCfg = Release|x86
+		{2D51ADCB-C420-412F-A1DA-D4E3E984156C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D51ADCB-C420-412F-A1DA-D4E3E984156C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D51ADCB-C420-412F-A1DA-D4E3E984156C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2D51ADCB-C420-412F-A1DA-D4E3E984156C}.Debug|x86.Build.0 = Debug|Any CPU
+		{2D51ADCB-C420-412F-A1DA-D4E3E984156C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D51ADCB-C420-412F-A1DA-D4E3E984156C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D51ADCB-C420-412F-A1DA-D4E3E984156C}.Release|x86.ActiveCfg = Release|Any CPU
+		{2D51ADCB-C420-412F-A1DA-D4E3E984156C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
